@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+   overflow-x: hidden;
+   min-height: 200vh;
+   background: #fff;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    padding: 40px 100px;
+    background-color: #fff;
+}
+header .logo
+{
+    position: relative;
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+header div
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div a
+{
+    position: relative;
+    list-style: none;
+}
+header div a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+header div a::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+header div a:hover::after
+{  
+    width: 100%;   
+}
+
+
+.container
+{
+    width: 1900px;
+    justify-content: center;
+}
+.list1
+{
+    text-decoration: none;
+    color: black;
+}
+.first__card
+{
+    display: flex;
+    margin: 150px 350px;
+    justify-content: center;
+    align-items: center;
+}
+.first__text
+{
+    padding: 20px 20px;
+    line-height: 35px;
+}
+.youtube__img
+{
+    
+    width: 50%;
+}
+.first__title
+{
+    font-size: 30px;
+    margin: 20px 20px;
+}
+.first__text
+{
+    font-size: 20px;
+    
+}
+.nav__btn1:hover
+{
+    color: #fff;
+    background: #fff;
+    color: #00BAFC;
+    padding: 10px 10px;
+    border-radius: 5px;  
+    text-decoration: none; 
+    margin: 20px 25px;
+    border: 2px solid #00BAFC;
+}
+.nav__btn1
+{
+    color: #fff;
+    border: 2px solid #00BAFC;
+    background: #00BAFC;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px 25px;
+   
+}
+ header .black__nav a:hover 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+   
+
+    width: 100%;
+    height: 56px;
+
+    background: rgba(25, 25, 25, 0.7);
+}
+
+
+
+
+header .black__nav a::after
+{
+    content: "";
+    display: none;
+}
+.second__title
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.second__card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second__text
+{
+    display: flex;
+    justify-content: center;
+    word-spacing: 5px;
+    line-height: 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.card1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+
+
+    width: 320px;
+    height: 260px;
+
+      background: #FFFFFF;
+      box-shadow: 10px 18px 18px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+}
+.city__cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.card1
+{
+    margin: 20px 20px;
+}
+.card1 p,
+h3
+{
+    margin: 10px 10px;
+}
+.xizmat__href
+{
+    color: #00BAFC;
+}
+.second__btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second__card1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px 20px;
+}
+.tree__card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.under__foot
+{
+    background: #00BAFC;
+}
+.white__card
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.white__title
+{
+    font-size: 30px;
+    margin: 30px 20px; 
+}
+.white__text
+{
+    font-size: 20px;
+    text-align: center;
+}
+.zakaz
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+
+    width: 348px;
+    height: 304px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: black;
+
+}
+#work,
+option
+{
+    padding: 10px 10px;
+    margin: 20px 20px;
+}
+.flex__input,
+input
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+footer
+{
+    background: #191919;
+}
+.fot__card
+{
+    color: #fff;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+
+}
+.fot__card1 
+{
+    margin: 20px;
+    color: #fff;
+    list-style: none; 
+}
+.fot__card1 li 
+{
+    text-decoration: none;
+    color: #fff;
+    list-style: none; 
+}
+.fot__card2
+{
+    margin: 30px;
+   
+    color: #fff;
+}
+.fot__card2 li
+{
+  
+    list-style: none;
+    color: #fff;
+}
+.main__fot
+{
+    display: flex;
+    justify-content: center;
+}
+.brand__teleg,
+li
+{
+    display: flex;
+    padding: 5px 5px;
+}
+.tree__text
+{
+    margin: 20px 90px;
+}
+.xizmat__first
+{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.xizmat__title
+{
+    font-size: 40px;
+}
+.xizmat__text
+{
+    text-align: center;
+    margin: 20px 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.main__cards
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    margin: 140px 540px;
+    justify-content: center;
+
+
+     width: 804px;
+     height: 378px;
+
+     background: #FFFFFF;
+     box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.12);
+     border-radius: 5px;
+
+}
+.website
+{
+    margin: 50px 50px;
+}
+.website .fa-solid
+{
+    color: #00BAFC;
+    margin: 5px 10px;
+}
+.website h3
+{
+    font-size: 30px;
+}
+.website p,
+li
+{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.work__link
+{
+    margin: 20px 20px;
+}
